@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LiraPlan Destek / Support">
+  <title>LiraPlan — Destek</title>
+  <style>
+    :root { color-scheme:light; --ink:#0d1b2e; --muted:#52645f; --paper:#f6faf8; --card:#fff; --accent:#018669; --line:#d9e5e0; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",sans-serif; background:var(--paper); color:var(--ink); font-size:16px; line-height:1.7; }
+    header,main,footer { width:min(900px,calc(100% - 32px)); margin-inline:auto; }
+    header { padding:32px 0 22px; border-bottom:1px solid var(--line); }
+    nav { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; }
+    nav a { color:var(--accent); font-weight:700; text-decoration:none; }
+    .page-links { display:flex; gap:16px; }
+    h1 { margin:34px 0 8px; font-size:clamp(2.1rem,6vw,3.6rem); line-height:1.08; letter-spacing:-.03em; }
+    .lead { color:var(--muted); max-width:720px; font-size:1.05rem; }
+    main { padding:28px 0 56px; }
+    article { margin:0 0 26px; padding:clamp(22px,5vw,38px); background:var(--card); border:1px solid var(--line); border-radius:20px; box-shadow:0 14px 38px rgba(13,27,46,.055); }
+    h2 { margin:0 0 6px; font-size:1.7rem; }
+    h3 { margin:1.4rem 0 .3rem; font-size:1.05rem; }
+    p { margin:.5rem 0; }
+    a { color:var(--accent); }
+    .contact { font-size:1.15rem; font-weight:700; }
+    footer { padding:0 0 48px; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Sayfa gezintisi">
+      <a href="../">LIRAPLAN</a>
+      <div class="page-links"><a href="#turkce">Türkçe</a><a href="#english">English</a><a href="../privacy/">Gizlilik</a></div>
+    </nav>
+    <h1>Destek<br><span lang="en">Support</span></h1>
+    <p class="lead">Soru, öneri ve hata bildirimleri için bize yazın. Write to us with questions, suggestions or bug reports.</p>
+    <p class="contact"><a href="mailto:support@adatepelabs.com">support@adatepelabs.com</a></p>
+  </header>
+  <main>
+    <article id="turkce" lang="tr">
+      <h2>Sık sorulan sorular</h2>
+      <h3>Verilerim nerede saklanıyor?</h3>
+      <p>Yalnızca telefonunuzda. LiraPlan hesap açtırmaz ve verilerinizi bir sunucuya göndermez. Ayrıntılar için <a href="../privacy/">gizlilik politikasına</a> bakabilirsiniz.</p>
+      <h3>Telefon değiştirirsem verilerim taşınır mı?</h3>
+      <p>LiraPlan'ın kendi bulut eşitlemesi yoktur. Verileriniz, telefonunuzun yedekleme özelliği (iCloud yedeklemesi veya Android yedeklemesi) açıksa yeni telefona yedekten geri yüklemeyle taşınabilir.</p>
+      <h3>Sesli giriş çalışmıyor.</h3>
+      <p>Telefonun Ayarlar bölümünden LiraPlan için mikrofon ve konuşma tanıma izinlerinin açık olduğunu kontrol edin. Sesli giriş şu an Türkçe cümleleri anlar; örneğin "Ziraat kartıyla 820 lira market alışverişi yaptım". Sesli giriş kullanılamadığında tüm işlemleri manuel olarak ekleyebilirsiniz.</p>
+      <h3>Döviz veya altın hesabımın TL karşılığı görünmüyor.</h3>
+      <p>Güncel fiyatlar internetten alınır. İnternet bağlantınızı kontrol edin; bağlantı yokken son bilinen fiyat kullanılır ve "fiyat güncel değil" uyarısı gösterilir.</p>
+      <h3>Tahmin ekranındaki rakamlar nasıl hesaplanıyor?</h3>
+      <p>Tahmin; mevcut bakiyelerinizi, planlı işlemlerinizi, tahmini gider kurallarınızı, kart taksitlerinizi, ekstre ödemelerinizi ve KMH faizini gün gün hesaplar. Tahmin ekranındaki "Bu sonuca nasıl geldik?" bölümünde her kalemi görebilirsiniz.</p>
+      <h3>Tüm verilerimi nasıl silerim?</h3>
+      <p>Uygulamayı telefonunuzdan kaldırmanız yeterlidir; tüm veriler uygulamayla birlikte silinir.</p>
+    </article>
+    <article id="english" lang="en">
+      <h2>Frequently asked questions</h2>
+      <h3>Where is my data stored?</h3>
+      <p>Only on your phone. LiraPlan has no accounts and sends no data to a server. See the <a href="../privacy/">privacy policy</a> for details.</p>
+      <h3>Will my data move to a new phone?</h3>
+      <p>LiraPlan has no cloud sync of its own. If your phone's backup (iCloud Backup or Android backup) is on, your data can be restored on a new phone from that backup.</p>
+      <h3>Voice entry doesn't work.</h3>
+      <p>Check that microphone and speech recognition permissions are on for LiraPlan in your phone's Settings. Voice entry currently understands Turkish sentences. You can always add transactions manually.</p>
+      <h3>How do I delete all my data?</h3>
+      <p>Uninstall the app; all data is deleted with it.</p>
+    </article>
+  </main>
+  <footer>© 2026 Adatepe Labs · <a href="../">LiraPlan</a> · <a href="../privacy/">Gizlilik / Privacy</a></footer>
+</body>
+</html>
